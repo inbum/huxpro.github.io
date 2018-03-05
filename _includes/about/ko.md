@@ -21,6 +21,6 @@
 - [DevOps](https://ko.wikipedia.org/wiki/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4) · [DevOps and AWS](https://aws.amazon.com/devops/)
 - Build native mobile apps using JavaScript and React [React Native](http://facebook.github.io/react-native/)
 - A new way to deliver amazing user experiences on the web [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
-- Web technology for developers(https://developer.mozilla.org/en-US/docs/Web)
-- Git · GIT CHEAT SHEET(https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+- [Web technology](https://developer.mozilla.org/en-US/docs/Web) for developers
+- Git · [GIT CHEAT SHEET](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
