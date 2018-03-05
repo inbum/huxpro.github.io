@@ -6,24 +6,11 @@ header-img: "img/about-bg-walle.jpg"
 multilingual: true
 ---
 
-<!-- Language Selector -->
-<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 한국어 </option>
-    <!-- <option value="1"> 영어 </option> -->
-</select>
-
 <!-- Korean Version -->
 <div class="ko post-container">
     {% capture about_ko %}{% include about/ko.md %}{% endcapture %}
     {{ about_ko | markdownify }}
 </div>
-
-<!-- English Version -->
-<div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
-</div>
-
 
 {% if site.disqus_username %}
 <!-- disqus start -->
