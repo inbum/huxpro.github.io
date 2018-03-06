@@ -46,9 +46,6 @@ kramdown:
 # Disqus settings
 disqus_username: inbums-blog
 
-# Netease setttings
-netease_comment: false
-
 
 
 # Analytics settings
