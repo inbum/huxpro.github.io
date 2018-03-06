@@ -365,10 +365,6 @@ br + small.img-hint {
 img.shadow {
   box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
 }
-img.emoji {
-  display: inline;
-  margin: auto;
-}
 select {
   -webkit-appearance: none;
   margin-top: 15px;
@@ -1154,6 +1150,12 @@ img::-moz-selection {
   height: auto;
   margin: 1.5em auto 1.6em auto;
 }
+
+img.emoji {
+  display: inline;
+  margin: auto;
+}
+
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
