@@ -30,7 +30,7 @@ sitemap:
 > - 중국통신기업 화웨이의 부상  
 > - 새로운 스마트 디바이스들  
 > 세미나에 대한 자세한 내용은 [이곳](https://talkit.tv/Event/1709)에서 확인할 수 있습니다. 
- ß
+ 
 *** 
 
 ### 5G 이야기
@@ -66,6 +66,8 @@ sitemap:
 마지막으로 스페인 바르셀로나에서 공개한 갤럭시 S9, 갤럭시 S9+ 12분 짜리 유튜브 영상 링크합니다.
 <iframe width="854" height="480" src="https://www.youtube.com/embed/P-k5X8lCdK0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+---
+참고자료
 [^1]: https://www.tta.or.kr/data/androReport/ttaJnal/163-2-3-5.pdf
 [^2]: https://byline.network/2018/02/27-9/
 
