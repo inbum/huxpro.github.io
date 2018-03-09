@@ -5,7 +5,7 @@ subtitle:   "완벽했던 그녀의 죽음, 그녀의 가면 속 진실"
 date:       2018-03-08 12:00:00
 author:     "Inbum"
 header-img: "img/post-bg-book-vanish-point-cover.jpeg"
-header-mask: 0.3
+header-mask: 1.0
 category:   책리뷰
 catalog:    true
 multilingual: false

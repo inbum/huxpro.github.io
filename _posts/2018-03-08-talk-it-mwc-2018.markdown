@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      "[작성중]다가오는 5G 시대, 무엇을 준비해야 할까"
+title:      "다가오는 5G 시대, 무엇을 준비해야 할까"
 subtitle:   "5G의 킬러서비스는?"
 date:       2018-03-08 18:00:00
 author:     "Inbum"
 header-img: "img/post-bg-talk-it-mwc-2018-big-data.jpg"
-header-mask: 0.3
+header-mask: 1.0
 category:   웨비나
 catalog:    true
 multilingual: false
