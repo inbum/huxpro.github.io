@@ -69,6 +69,6 @@ sitemap:
 ---
 참고자료 
 
-[^1]: https://www.tta.or.kr/data/androReport/ttaJnal/163-2-3-5.pdf?target=_blank
-[^2]: https://byline.network/2018/02/27-9/?target=_blank
+[^1]: <a href="https://www.tta.or.kr/data/androReport/ttaJnal/163-2-3-5.pdf" target="_blank">https://www.tta.or.kr/data/androReport/ttaJnal/163-2-3-5.pdf</a>
+[^2]: <a href="https://byline.network/2018/02/27-9/" target="_blank">https://byline.network/2018/02/27-9/</a>
 
