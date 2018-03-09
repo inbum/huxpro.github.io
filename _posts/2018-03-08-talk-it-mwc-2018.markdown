@@ -40,14 +40,14 @@ sitemap:
  2. 대규모 기기간 통신 서비스 ( mMTC, massive Machine Type Communication) 
  3. 초고신뢰성/저지연 통신 서비스 ( URLLC, Ultra-Reliable & Low Latency Communications) 
 
-한마디로, 최고의 품질로(끊김없이) LTE보다 10~20배 빠른속도로, 초다수의 디바이스 연결을 지원한다고 합니다.[^1]
+한마디로, 최고의 품질로(끊김없이) LTE보다 10~20배 빠른속도로, 초다수의 디바이스 연결을 지원한다고 합니다.[^1]{:target="_blank"}
 
 우리나라는 2019년 세계 최초 5G 상용화를 목표로, 기술 개발, 주파수 할당 계획, 필수 설비 확보등의 준비를 하고 있는듯 합니다.
 
 5G는 아주 가까운 현실이 되었습니다. LTE로도 충분하다고 생각했는데, 통신사 입장에서는 그렇게 생각하지 않나 봅니다. 더욱더 빠르고 완벽한 통신기술 환경 속에, 과연 소비자들에게 그만한 가치를 줄 킬러 서비스는 존재할까요? 전문가들이 이야기하는 킬러 서비스는 무엇일까요?
 
 ### 5G 킬러서비스는?
-여러가지 서비스가 언급되고 있습니다.[^2]
+여러가지 서비스가 언급되고 있습니다.[^2]{:target="_blank"}
  1. AR/ VR
  2. IOT
  3. V2X( Vehicle-to-everything )
@@ -69,6 +69,6 @@ sitemap:
 ---
 참고자료 
 
-[^1]: https://www.tta.or.kr/data/androReport/ttaJnal/163-2-3-5.pdf {:target="_blank"}
-[^2]: https://byline.network/2018/02/27-9/ {:target="_blank"}
+[^1]: https://www.tta.or.kr/data/androReport/ttaJnal/163-2-3-5.pdf 
+[^2]: https://byline.network/2018/02/27-9/ 
 
