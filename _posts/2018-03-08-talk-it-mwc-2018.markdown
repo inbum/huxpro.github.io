@@ -67,7 +67,7 @@ sitemap:
 <iframe width="854" height="480" src="https://www.youtube.com/embed/P-k5X8lCdK0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
-참고자료
-[^1]: https://www.tta.or.kr/data/androReport/ttaJnal/163-2-3-5.pdf
-[^2]: https://byline.network/2018/02/27-9/
+참고자료 
+[^1]: https://www.tta.or.kr/data/androReport/ttaJnal/163-2-3-5.pdf 
+[^2]: https://byline.network/2018/02/27-9/ 
 
