@@ -6,7 +6,7 @@ date:       2018-03-05 12:00:00
 author:     "Inbum"
 header-img: "img/post-bg-why-blog.jpg"
 header-mask: 1.0
-category:   블로그
+category:   Blog
 catalog:    true
 multilingual: false
 tags:

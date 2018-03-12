@@ -6,7 +6,7 @@ date:       2018-03-08 12:00:00
 author:     "Inbum"
 header-img: "img/post-bg-book-vanish-point-cover.jpeg"
 header-mask: 1.0
-category:   책리뷰
+category:   Book
 catalog:    true
 multilingual: false
 tags:

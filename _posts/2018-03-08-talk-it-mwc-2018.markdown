@@ -6,7 +6,7 @@ date:       2018-03-08 18:00:00
 author:     "Inbum"
 header-img: "img/post-bg-talk-it-mwc-2018-big-data.jpg"
 header-mask: 1.0
-category:   웨비나
+category:   webinar
 catalog:    true
 multilingual: false
 tags:
