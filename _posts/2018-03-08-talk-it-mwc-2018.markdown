@@ -5,14 +5,14 @@ subtitle:   "5G의 킬러서비스는?"
 date:       2018-03-08 18:00:00
 author:     "Inbum"
 header-img: "img/post-bg-talk-it-mwc-2018-big-data.jpg"
-header-mask: 1.0
+header-mask: 0.3
 category:   webinar
 catalog:    true
 multilingual: false
 tags:
     - 웨비나
 sitemap:
-    priority: 0.1
+    priority: 1.0
     changefreq: 'weekly'
     lastmod: 2018-03-08 18:00:00
 ---

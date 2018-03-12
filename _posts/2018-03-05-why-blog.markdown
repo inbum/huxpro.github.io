@@ -5,14 +5,14 @@ subtitle:   "개발자가 블로그를 하는 이유, 어떻게 만들고 운영
 date:       2018-03-05 12:00:00
 author:     "Inbum"
 header-img: "img/post-bg-why-blog.jpg"
-header-mask: 1.0
+header-mask: 0.3
 category:   Blog
 catalog:    true
 multilingual: false
 tags:
     - 블로그
 sitemap:
-    priority: 0.1
+    priority: 1.0
     changefreq: 'weekly'
     lastmod: 2018-03-05 12:00:00
 ---
