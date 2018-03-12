@@ -6,7 +6,7 @@ date:       2018-03-12 12:00:00
 author:     "Inbum"
 header-img: "img/post-bg-maker-edu-intro.jpg"
 header-mask: 0.3
-category:   maker education
+category:   maker
 catalog:    true
 multilingual: false
 tags:
