@@ -28,7 +28,8 @@ sitemap:
 ***
 
 ### 우리 아이가 살아갈 세상 
-> 미래는 이미 와 있다 - 단지 별로 퍼져 있지 않을 뿐이다.( The future is already hear -- it's just not very evenly distributed )
+> 미래는 이미 와 있다 - 단지 별로 퍼져 있지 않을 뿐이다.( The future is already hear -- it's just not very evenly distributed ) 
+
 세계 석학들은 번뜩이는 아이디어로 혁신을 이끌고 무엇인가를 만들어내는 사람들, 즉 '메이커들의 시대'가 올것이라고 예고 합니다.
 2014년 6월 미국 백악관에서 열린 메이커 페어에서 버락 오바마 대통령은 '오늘의 DIY가 내일의 USA'라며 메이크 운동(Make Movement)의 중요성을 강조하며 메이커 운동이 향후 제조업의 기초가 될것이란 말을 남겼습니다.
 
