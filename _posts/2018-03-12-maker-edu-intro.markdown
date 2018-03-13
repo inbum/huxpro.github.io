@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "메이커 교육"
+title:      "메이커 교육이란?"
 subtitle:   "우리아이 교육 어떻게 시켜야 할까?"
 date:       2018-03-12 12:00:00
 author:     "Inbum"
