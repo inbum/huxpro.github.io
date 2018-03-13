@@ -44,12 +44,13 @@ sitemap:
 
 ### 개인적, 사회적, 환경적 차원에서의 메이커 교육의 특징
 
-| 메이커 교육의 특징 ||
-|--------|--------|
-| 개인적 차원 | 발명자, 창조자로서의 학습자(장인정신)<br>실패 경험을 통한 지속적 인내(기업가정신)|
-| 사회적 차원 | 민주적 정신<br>사회적 실천 강조<br>온라인 커뮤니티를 통한 네트워크 구성과 공유<br>학습 과정 및 결과의 자발적 공유<br>풍부한 리소스(인적자원, 자료 및 재료 등)의 공유, 지원, 개방 |
-| 환경적 차원 | 메이커 스페이스를 필요<br>온라인 커뮤니티를 통해 정보를 공유·개방<br>일회적이지 않은 순환적, 반복적 교육이 진행 |
-메이커 교육은 개인들이 아이디어 선정부터 필요 지식을 습득하고, 직접 물건을 제작하는 전 과정을 자발적 의사에 따라 선택하고 결정한다는 측면에서 자기주도학습 및 경험학습의 교육 현장으로 이해 가능합니다.[^1] [^2]
+ | 메이커 교육의 특징 ||
+ |--------|--------|
+ | 개인적 차원 | 발명자, 창조자로서의 학습자(장인정신)<br>실패 경험을 통한 지속적 인내(기업가정신)|
+ | 사회적 차원 | 민주적 정신<br>사회적 실천 강조<br>온라인 커뮤니티를 통한 네트워크 구성과 공유<br>학습 과정 및 결과의 자발적 공유<br>풍부한 리소스(인적자원, 자료 및 재료 등)의 공유, 지원, 개방 |
+ | 환경적 차원 | 메이커 스페이스를 필요<br>온라인 커뮤니티를 통해 정보를 공유·개방<br>일회적이지 않은 순환적, 반복적 교육이 진행 |
+
+ 메이커 교육은 개인들이 아이디어 선정부터 필요 지식을 습득하고, 직접 물건을 제작하는 전 과정을 자발적 의사에 따라 선택하고 결정한다는 측면에서 자기주도학습 및 경험학습의 교육 현장으로 이해 가능합니다.[^1][^2]
 
 ### 무엇을 배우는가
  - 오픈소스 하드웨어 및 소프트웨어 개념
@@ -71,8 +72,5 @@ sitemap:
 
  아들아 메이커 스페이스 만들어주면 엄마아빠 달나라에 갖다오게 우주왕복선 하나 만들어줄래~?
 
- [^1]: Halverson, E. R. & Sheridan, K. M.(2014), “The Maker Movement in Education,” Harvard Educational
-Review, Vol.84, No.4, pp.495-504.
- [^2]: Blikstein, P. & Krannich, D.(2013), “The makers' movement and FabLabs in education: experiences,
-technologies, and research,” In Proceedings of the 12th International Conference on Interaction Design and
-Children, ACM, pp.613-616.
+[^1]: Halverson, E. R. & Sheridan, K. M.(2014), "The Maker Movement in Education," Harvard Educational Review, Vol.84, No.4, pp.495-504. 
+[^2]: Blikstein, P. & Krannich, D.(2013), "The makers' movement and FabLabs in education: experiences, technologies, and research," In Proceedings of the 12th International Conference on Interaction Design and Children, ACM, pp.613-616.
