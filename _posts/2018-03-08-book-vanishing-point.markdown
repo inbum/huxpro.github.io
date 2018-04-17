@@ -12,8 +12,8 @@ multilingual: false
 tags:
     - 책리뷰
 sitemap:
-    priority: 1.0
-    changefreq: 'weekly'
+    priority: 0.5
+    changefreq: 'monthly'
     lastmod: 2018-03-08 12:00:00
 ---
 &lt;실미도&gt;, &lt;공공의 적2&gt;, &lt;H&gt;, &lt;한반도&gt; 등 굵직한 영화의 각본을 도맡아 온 작가 김희재의 첫 소설입니다. 총질이나 음모론이 좋다는 작가가 생각하는 사랑에 관한 이야기라고 합니다. 

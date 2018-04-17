@@ -12,8 +12,8 @@ multilingual: false
 tags:
     - rsync
 sitemap:
-    priority: 1.0
-    changefreq: 'weekly'
+    priority: 0.5
+    changefreq: 'monthly'
     lastmod: 2018-03-21 18:00:00
 ---
 

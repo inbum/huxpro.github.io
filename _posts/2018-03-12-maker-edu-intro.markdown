@@ -12,8 +12,8 @@ multilingual: false
 tags:
     - 메이커 교육
 sitemap:
-    priority: 1.0
-    changefreq: 'weekly'
+    priority: 0.5
+    changefreq: 'monthly'
     lastmod: 2018-03-12 12:00:00
 ---
 

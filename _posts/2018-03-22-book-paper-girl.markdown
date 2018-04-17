@@ -12,8 +12,8 @@ multilingual: false
 tags:
     - 책리뷰
 sitemap:
-    priority: 1.0
-    changefreq: 'weekly'
+    priority: 0.5
+    changefreq: 'monthly'
     lastmod: 2018-03-22 12:00:00
 ---
 2010년 발표되어 큰 인기를 얻었던 작품. 종이여자 입니다. 소설 안 읽는 한국 사회에서 이 작가 모르는 사람이 드물 정도라는, **기욤 뮈소** 의 작품입니다.
