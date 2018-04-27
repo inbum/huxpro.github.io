@@ -144,49 +144,49 @@ phoneRegex = re.compile(r'((\d{2}|\(\d{2}\)|\d{3}|\(\d{3}\))?(|-|\.)?(\d{3}|\d{4
 import re 
 
 phoneRegex = re.compile(r'''(
-    (\d{2}|\(\d{2}\)|\d{3}|\(\d{3}\))?      # 지역번호 : 2자리 또는 3자리, () 포함, 0번또는 1번 <br/>
-    (|-|\.)?                                # 구분자 : 하이푼 또는 . 0번 또는 1번 <br/>
-    (\d{3}|\d{4})                           # 3자리 또는 4자리 숫자 <br/>
-    (\s|-|\.)                               # 구분자 <br/>
-    (\d{4})                                 # 4자리 숫자 <br/>
-    )''', re.VERBOSE)
-message = '청와대 민원실 전화번호는 02-730-5800 입니다. \ <br/>
-          자동응답기로 연결되네요. \ <br/>
-          02-730-5800 장난전화 하지 마세요. \ <br/>
-          서울에서는 지역번호 없이 730-5800. 폰번호는 010-1234-1234 입니다.'
+    (\d{2}|\(\d{2}\)|\d{3}|\(\d{3}\))?      # 지역번호 : 2자리 또는 3자리, () 포함, 0번또는 1번  
+    (|-|\.)?                                # 구분자 : 하이푼 또는 . 0번 또는 1번  
+    (\d{3}|\d{4})                           # 3자리 또는 4자리 숫자  
+    (\s|-|\.)                               # 구분자  
+    (\d{4})                                 # 4자리 숫자  
+    )''', re.VERBOSE)  
+message = '청와대 민원실 전화번호는 02-730-5800 입니다. \  
+          자동응답기로 연결되네요. \  
+          02-730-5800 장난전화 하지 마세요. \  
+          서울에서는 지역번호 없이 730-5800. 폰번호는 010-1234-1234 입니다.'  
 
-for phoneNum in phoneRegex.findall(message):
-    print('전화번호: ' + str(phoneNum))
+for phoneNum in phoneRegex.findall(message):  
+    print('전화번호: ' + str(phoneNum))  
 
-$ python3 phoneRegex.py
-전화번호: ('02-730-5800', '02', '-', '730', '-', '5800')
-전화번호: ('02-730-5800', '02', '-', '730', '-', '5800')
-전화번호: ('730-5800', '', '', '730', '-', '5800')
-전화번호: ('010-1234-1234', '010', '-', '1234', '-', '1234')
+$ python3 phoneRegex.py  
+전화번호: ('02-730-5800', '02', '-', '730', '-', '5800')  
+전화번호: ('02-730-5800', '02', '-', '730', '-', '5800')  
+전화번호: ('730-5800', '', '', '730', '-', '5800')  
+전화번호: ('010-1234-1234', '010', '-', '1234', '-', '1234')  
 ```
 #### 이메일 주소 정규표현식
 아래는, 거의 모든 일반적인 이메일 주소를 일치하는 정규표현식 입니다.
 ```python
-import re 
+import re   
 
-emailRegex = re.compile(r'''( <br/>
-    ([a-zA-Z0-9._%+-]+)      # 사용자명 <br/>
-    @                        # @ <br/>
-    ([a-zA-Z0-9.-]+)         # 도메인 이름 <br/>
-    (\.[a-zA-Z]{2,4})        # 최상위 도메인 <br/>
-    )''', re.VERBOSE)
+emailRegex = re.compile(r'''(  
+    ([a-zA-Z0-9._%+-]+)      # 사용자명  
+    @                        # @  
+    ([a-zA-Z0-9.-]+)         # 도메인 이름  
+    (\.[a-zA-Z]{2,4})        # 최상위 도메인  
+    )''', re.VERBOSE)  
 
-message = '청와대 담당자 이메일주소는 webmaster@president.go.kr \ <br/>
-          제 이메일 주소는 inbum.o@gmail.com \ <br/>
-          테스트 이메일 주소는 test123@abc123.com 입니다.'
+message = '청와대 담당자 이메일주소는 webmaster@president.go.kr \  
+          제 이메일 주소는 inbum.o@gmail.com \  
+          테스트 이메일 주소는 test123@abc123.com 입니다.'  
 
-for email in emailRegex.findall(message):
-    print('이메일: ' + str(email))
+for email in emailRegex.findall(message):  
+    print('이메일: ' + str(email))  
 
-$ python3 emailRegex.py
-이메일: ('webmaster@president.go.kr', 'webmaster', 'president.go', '.kr')
-이메일: ('inbum.o@gmail.com', 'inbum.o', 'gmail', '.com')
-이메일: ('test123@abc123.com', 'test123', 'abc123', '.com')
+$ python3 emailRegex.py  
+이메일: ('webmaster@president.go.kr', 'webmaster', 'president.go', '.kr')  
+이메일: ('inbum.o@gmail.com', 'inbum.o', 'gmail', '.com')  
+이메일: ('test123@abc123.com', 'test123', 'abc123', '.com')  
 ```
 더 작성하기... ( 웹사이트 url찾기, 날짜형식 등등....)
 
