@@ -48,7 +48,7 @@ Material Theme를 사용하고자 하면, res/value-v21 폴더안에 style.xml �
 
 ### 2. Code를 이용한 방법
 만약 프로그래밍 방식으로 StatusBar 색상을 변경하고자 하면, 아래의 순서대로 진행합니다.
-#### Utility Class
+#### Utility Class 생성
 먼저, 어떤 Activity에서든 접근 가능한 utility class를 만듭니다. 적당한 페키지를 생성 한 뒤, Utils.java 파일을 생성하고 아래 코드를 입력합니다.
 ```java
 public class Utils {
