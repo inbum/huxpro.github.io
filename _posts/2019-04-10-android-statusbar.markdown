@@ -28,6 +28,7 @@ sitemap:
 먼저, Theme를 이용하여 StatusBar 색상을 변경하는 방법 입니다.
 AppCompat Theme를 사용하고 있다면, res/values/style.xml 파일 에 다음 내용을 추가합니다.
 ```
+<?xml version="1.0" encoding="utf-8"?>
 <style name="statusBarTheme" parent="Theme.AppCompat.Light">
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/myStatusBarColor</item>  // statusbar color 적용
@@ -49,7 +50,7 @@ Material Theme를 사용하고자 하면, res/value-v21 폴더안에 style.xml �
 만약 프로그래밍 방식으로 StatusBar 색상을 변경하고자 하면, 아래의 순서대로 진행합니다.
 #### Utility Class
 먼저, 어떤 Activity에서든 접근 가능한 utility class를 만듭니다. 적당한 페키지를 생성 한 뒤, Utils.java 파일을 생성하고 아래 코드를 입력합니다.
-```
+```java
 public class Utils {
   public enum StatusBarColorType {
      BLACK_STATUS_BAR( R.color.black ),
@@ -75,11 +76,11 @@ public class Utils {
 }
 ```
 Enum 클래스 형을 기반으로 한 StatusBarColorType을 선언하여 3가지 타입의 StatusBarColor를 정의 하였습니다. 열거형 상수와 관련된 값을 생성자를 통해 연결시켜 사용 하였습니다.
-그리고 API level 21에서 추가된 setStatusBarColor(https://developer.android.com/reference/android/view/Window.html#setStatusBarColor)함수를 이용해 열거형 상수와 연결된 값으로 StatusBar 색상을 변경 하였습니다.
+그리고 API level 21에서 추가된 [setStatusBarColor](https://developer.android.com/reference/android/view/Window.html#setStatusBarColor(int))함수를 이용해 열거형 상수와 연결된 값으로 StatusBar 색상을 변경 하였습니다.
 
 #### 사용방법  
 아래와 같이 StatusBar 색상을 변경하고자 하는 Activity에서, activity와 정의해 놓은 열거형 상수 타입을 포함하여 호출합니다.
-```
+```java
 public class MainActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
