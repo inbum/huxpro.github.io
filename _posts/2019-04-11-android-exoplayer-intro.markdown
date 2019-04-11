@@ -135,8 +135,8 @@ public class MainActivity extends Activity {
 ```
 #### 3. 실행결과
 ![실행결과](/img/post-cp1-android-exoplayer.png)
-
-너무나 쉽고 빠르게 VAST규격의 광고가 포함된 미디어를 재생하는 플레이어를 만들어 보았습니다. 추후 파일 탐색, 라이브 스트림 URL추가 등 확장 기능들을 생각해 보고 구현하여 조금 더 진화 된 미디어 플레이어를 구현해 보도록 하겠습니다. 감사합니다.
+---
+너무나 쉽고 빠르게 VAST규격의 광고가 포함된 미디어를 재생하는 플레이어를 만들어 보았습니다. 추후 파일 탐색, 라이브 스트림 URL추가 등 확장 기능들을 생각해 보고 구현하여 조금 더 진화 된 미디어 플레이어를 구현해 보도록 하겠습니다. 감사합니다. :)
 ---
 참고자료
 [Source](https://github.com/google/ExoPlayer/tree/io18/video-app){:target="_blank"}
