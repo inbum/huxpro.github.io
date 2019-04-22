@@ -78,6 +78,7 @@ activity_main.xml 파일에 PlayerView를 추가하고 id를 다음과 같이 pl
 * onCrate 메소드에서 Player 뷰에 접근하기 위해 뷰를 찾아오고, 구글 샘플 소스에 포함된, AD_TAG_URI를 이용해 ImaAdsLoader를 초기화 합니다.
 * onStart 메소드에서는 ExoPlayerFactory.newSimpleInstance method를 이용해 플레이어를 초기화 하고, 광고가 포함된 미디어소스를 생성하여 플레이어에 적용 합니다. 그리고 setPlayWhenReady(true) 메소드를 호출하여 Player.getPlaybackState() == Player.STATE_READY 상태가 되면 영상이 자동으로 재생되게 설정 합니다.
 * onStop, onDestroy 메소드에서 ExoPlayer.release를 호출하여 다른 어플리케이션에서 사용할 수 있게 video decoder와 같은 더이상 필요 없는 리소스들을 릴리즈 합니다.
+
 ```java
 public class MainActivity extends Activity {
 
