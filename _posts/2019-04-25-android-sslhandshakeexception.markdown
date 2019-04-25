@@ -18,14 +18,15 @@ sitemap:
 ---
 
 ### SSLHandshakeException 발생!
-진행하고 있는 프로젝트에서 서버 이관 작업이 발생하였습니다. 변경된 서버로 테스트 하는 중, Android 4.4이하 버전에서 SSLHandshakeException이 발생하는 이슈가 발생합니다.
+최근 진행하고 있는 프로젝트에서 서버이관 작업이 발생했습니다. 앱에서 http요청 Url을 변경하고, 테스트 중, Android 4.4이하 버전에서 SSLHandshakeException이 발생합니다. :(
 
 ### 1. 구글링
-구글링 결과 stackoverflow에 [링크](https://stackoverflow.com/a/26586324)와 같은 답변을 찾았습니다.
+주저 없이 구글링 해 보았습니다. 결과 stackoverflow에 [링크](https://stackoverflow.com/a/26586324)와 같은 답변을 찾았습니다.
 구글 개발자 사이트에 명시된 SSLEngine 버전별 기본 설정을 보면, API 20미만은 TLSv1 Protocol만 지원하는 걸로 명시 되어 있습니다.
+![SSLEngine](/img/post-cp0-android-sslexception.png)
 
 ### 2. SSL Server Test
-SSL LABS를 이용해 바로 확인 해 보았습니다. 기존 서버의 SSL Protocols 설정과 이관할 서버의 SSL Protocols의 설정을 비교한 결과, 예상대로 TLS 1.0 설정이 No로 되어 있습니다.
+SSL LABS를 이용해 바로 확인 해 보았습니다. 기존 서버의 SSL Protocols설정과 이관할 서버의 SSL Protocols의 설정을 비교한 결과, 예상대로 TLS 1.0 설정이 No로 되어 있습니다.
 ![기존서버](/img/post-cp1-android-sslexception.png)
 ![이관서버](/img/post-cp2-android-sslexception.png)
 
