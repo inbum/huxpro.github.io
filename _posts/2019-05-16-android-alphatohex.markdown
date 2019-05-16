@@ -17,12 +17,10 @@ sitemap:
     lastmod: 2019-05-16 08:20:00
 ---
 
-### 안드로이드 투명도
+### 안드로이드 투명도 
 투명도 비율을 hex 값으로 나타낸 테이블 입니다.
-계산 공식은 아래와 같습니다.
----
+계산 공식은 다음과 같습니다.
 DecimalToHex(Math.round((원하는 비율(0 ~100) * 2.55)))
----
 
 ### 변환 테이블
 |  <center>투명도</center> |  <center>Hex</center> |
@@ -136,7 +134,6 @@ DecimalToHex(Math.round((원하는 비율(0 ~100) * 2.55)))
 |**3%** | <center>08</center> |
 |**2%** | <center>05</center> |
 |**1%** | <center>03</center> |
-|**0** | <center>00</center> |
-
+|**0%** | <center>00</center> |
 
 [참고 : https://developer.android.com/reference/android/graphics/Color.html](https://developer.android.com/reference/android/graphics/Color.html){:target="_blank"}
