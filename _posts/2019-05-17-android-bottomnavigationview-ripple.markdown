@@ -113,7 +113,7 @@ BottomNavigationView의 배경을 구분선이 포함된 배경으로 변경하�
 
 </ripple>
 ```
-![itemBackground ripple 적용 결과](/img/post-cp2-android-bottomnavigationview.png)
+![itemBackground ripple 적용 결과](/img/post-cp2-android-bottomnavigationview.jpg)
 
 ### 더 좋은 방법
 BottomNavigationView의 background 속성에 drawable을 적용하는 방법이 더 좋을까? ㅎㅎ
