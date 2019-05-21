@@ -82,7 +82,9 @@ BottomNavigationView의 배경을 구분선이 포함된 배경으로 변경하�
 
 ### item drawable에 ripple 효과 적용
 이대로 ripple효과를 포기할 수는 없으니, 위에 적용했던 itemBackground drwable xml(bottom_menu_item_bg.xml)에 ripple 효과를 적용해 보았습니다.
+
 > 위에서도 언급했듯이 ripple 효과는 API21 부터 적용되기 때문에, res/drawable-21 폴더를 생성하여 아래 내용의 xml파일을(bottom_menu_item_bg.xml) 생성합니다.
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
@@ -116,4 +118,4 @@ BottomNavigationView의 배경을 구분선이 포함된 배경으로 변경하�
 ![itemBackground ripple 적용 결과](/img/post-cp2-android-bottomnavigationview.jpg)
 
 ### 더 좋은 방법
-BottomNavigationView의 background 속성에 drawable을 적용하는 방법이 더 좋을까? ㅎㅎ
+BottomNavigationView의 background 속성에 drawable을 적용하는 방법이 더 좋을까요? ㅎㅎ
