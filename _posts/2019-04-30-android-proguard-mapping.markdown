@@ -32,7 +32,7 @@ sitemap:
 
 ### 2. 난독 해제 파일
 실제 소스코드의 패키지, 클래스, 메소드명을 파악하기 위해서는 **난독 해제 파일을 업로드** 해야 합니다.
-난독 해제 파일은 ** <module-name>/build/outputs/mapping/release/ ** 경로에 저장되며 mapping.txt 파일명으로 저장되어 있습니다.
+난독 해제 파일은 <module-name>/build/outputs/mapping/release/ 경로에 저장되며 mapping.txt 파일명으로 저장되어 있습니다.
 그 외 dump.txt, seeds.txt, usage.txt등 ProGuard를 이용하여 빌드 시 생성된 파일들도 함께 존재합니다.
 
 ### 3. mapping.txt 업로드
